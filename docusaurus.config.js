@@ -28,16 +28,11 @@ module.exports = {
           position: 'left',
           label: 'API',
         },
-        // {
-        //   href: 'https://github.com/revoltchat/revolt.js',
-        //   position: 'left',
-        //   label: 'revolt.js',
-        // },
-        // {
-        //   href: 'https://github.com/revoltchat',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://github.com/boticord',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -56,34 +51,9 @@ module.exports = {
             },
           ],
         },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Revolt',
-        //       href: 'https://app.revolt.chat/invite/Testers',
-        //     },
-        //     {
-        //       label: 'Reddit',
-        //       href: 'https://reddit.com/r/revoltchat/',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/revoltchat',
-        //     },
-        //     {
-        //       label: 'Mastodon',
-        //       href: 'https://mastodon.social/@revoltchat',
-        //     },
-        //   ],
-        // },
         {
           title: 'More',
           items: [
-            /*{
-              label: 'Blog',
-              to: '/blog',
-            },*/
             {
               label: 'GitHub',
               href: 'https://github.com/boitcord',
@@ -115,14 +85,11 @@ module.exports = {
           rehypePlugins: [katex],
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // editUrl:
-          // 'https://github.com/revoltchat/documentation/blob/master/',
-        },
-        /*blog: {
-          showReadingTime: true,
           editUrl:
-          'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },*/
+          'https://github.com/boticord/docs-v3/blob/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
