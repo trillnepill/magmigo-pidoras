@@ -2,6 +2,9 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+## Thanks
+Special thanks to [revolt.chat](https://github.com/revoltchat/documentation) developers
+
 ## Installation
 
 ```console
