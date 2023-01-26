@@ -63,13 +63,13 @@ module.exports = {
               href: 'https://boticotd.top',
             },
             {
-                label: 'Поддержка',
-                href: 'https://boticord.top/discord',
+              label: 'Поддержка',
+              href: 'https://boticord.top/discord',
             }
           ],
         },
       ],
-      copyright: `Все права удалены. © ${new Date().getFullYear()+54} Boticord`,
+      copyright: `Все права защищены.. © ${new Date().getFullYear()} Boticord`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -78,7 +78,7 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',      
+      '@docusaurus/preset-classic',
       {
         docs: {
           remarkPlugins: [math, require('@docusaurus/remark-plugin-npm2yarn'), {sync: true}],
@@ -86,7 +86,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-          'https://github.com/boticord/docs-v3/blob/main/',
+              'https://github.com/boticord/docs-v3/blob/main/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -113,18 +113,18 @@ module.exports = {
     // ]
   ],
   themes: [
-      [
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-        ({
-          hashed: true,
-          language: ["en", "ru"],
-          docsRouteBasePath: "/",
-        })
-      ]
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "ru"],
+        docsRouteBasePath: "/",
+      })
+    ]
   ],
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
-    },
+  },
 };
