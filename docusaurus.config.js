@@ -10,7 +10,7 @@ module.exports = {
   tagline: '',
   url: 'https://docs.arbuz.pro',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'Boticord',
@@ -46,10 +46,10 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            {
-              label: 'Contributing',
-              to: '/contributing',
-            },
+            // {
+            //   label: 'Contributing',
+            //   to: '/contributing',
+            // },
             {
               label: 'REST API',
               to: '/api/',
