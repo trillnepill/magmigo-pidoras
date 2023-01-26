@@ -8,7 +8,7 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Boticord',
   tagline: '',
-  url: 'https://docs.arbuz.pro',
+  url: 'https://bcv3.livixx.me',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
