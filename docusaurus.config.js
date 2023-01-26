@@ -57,11 +57,11 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/boitcord',
+              href: 'https://github.com/biticord',
             },
             {
               label: 'Сайт',
-              href: 'https://boticotd.top',
+              href: 'https://boticord.top',
             },
             {
               label: 'Поддержка',
