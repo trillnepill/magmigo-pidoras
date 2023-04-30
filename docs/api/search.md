@@ -5,7 +5,7 @@ published: true
 ---
 
 # Поиск
-Для поиска мы ботов, серверов и комментариев используем сервис [Meilisearch](https://www.meilisearch.com)
+Для поиска ботов, серверов и комментариев используем сервис [Meilisearch](https://www.meilisearch.com)
 Ознакомиться со всеми методами поиска вы можете ознакомиться [здесь](https://docs.meilisearch.com/reference/api/search.htm)
 
 Получить ключ для поиска можно с помощью метода `GET /search-key`
