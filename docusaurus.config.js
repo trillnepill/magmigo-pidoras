@@ -34,6 +34,10 @@ module.exports = {
                     label: 'SDK',
                 },
                 {
+                    type: 'localeDropdown',
+                    position: 'right'
+                },
+                {
                     href: 'https://github.com/boticord',
                     position: 'right',
                     className: 'header-github-link',
@@ -135,6 +139,15 @@ module.exports = {
     ],
     i18n: {
         defaultLocale: 'ru',
-        locales: ['ru'],
+        locales: ['ru','en'],
+        path: 'locale',
+        localeConfigs: {
+            ru: {
+                label: 'Русский',
+            },
+            en: {
+                label: 'English',
+            }
+        }
     },
 };
