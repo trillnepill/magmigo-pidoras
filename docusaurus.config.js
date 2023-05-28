@@ -6,20 +6,20 @@ const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: 'Boticord',
+    title: 'BotiCord.top Public API',
     tagline: '',
-    url: 'https://bcv3.livixx.me',
+    url: 'https://dev-docs.boticord.top',
     baseUrl: '/',
     onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.png',
-    organizationName: 'Boticord',
-    projectName: 'API',
+    organizationName: 'BotiCord',
+    projectName: 'BotiCord.top Public API',
     themeConfig: {
         navbar: {
-            title: 'Boticord',
+            title: 'BotiCord',
             logo: {
-                alt: 'Boticord logo',
+                alt: 'BotiCord logo',
                 src: 'img/logo.svg',
             },
             items: [
@@ -79,7 +79,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Все права защищены.. © ${new Date().getFullYear()} Boticord`,
+            copyright: `Все права защищены. © ${new Date().getFullYear()} BotiCord.top`,
         },
         prism: {
             theme: lightCodeTheme,
