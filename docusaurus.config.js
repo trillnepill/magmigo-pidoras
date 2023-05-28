@@ -79,7 +79,7 @@ module.exports = {
                     ],
                 },
             ],
-            copyright: `Все права защищены. © ${new Date().getFullYear()} BotiCord.top`,
+            copyright: `Все права защищены. © 2020-${new Date().getFullYear()} BotiCord.top`,
         },
         prism: {
             theme: lightCodeTheme,
