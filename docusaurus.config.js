@@ -16,6 +16,19 @@ module.exports = {
     organizationName: 'BotiCord',
     projectName: 'BotiCord.top Public API',
     themeConfig: {
+        metadata: [{
+            name: 'googlebot',
+            value: 'noindex, nofollow'
+        },{
+            name: 'robots',
+            value: 'noindex, nofollow'
+        }, {
+            name: 'yandex',
+            value: 'none'
+        }, {
+            name: 'robots',
+            value: 'none'
+        }],
         navbar: {
             title: 'BotiCord',
             logo: {
