@@ -62,7 +62,7 @@ module.exports = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: 'Документация',
                     items: [
                         // {
                         //   label: 'Contributing',
@@ -79,7 +79,7 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'More',
+                    title: 'Сообщество',
                     items: [
                         {
                             label: 'GitHub',

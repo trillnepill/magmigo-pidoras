@@ -1,11 +1,11 @@
 {
-  "link.title.Docs": {
-    "message": "Docs",
-    "description": "The title of the footer links column with title=Docs in the footer"
+  "link.title.Документация": {
+    "message": "Документация",
+    "description": "The title of the footer links column with title=Документация in the footer"
   },
-  "link.title.More": {
-    "message": "More",
-    "description": "The title of the footer links column with title=More in the footer"
+  "link.title.Сообщество": {
+    "message": "Сообщество",
+    "description": "The title of the footer links column with title=Сообщество in the footer"
   },
   "link.item.label.REST API": {
     "message": "REST API",
