@@ -112,10 +112,8 @@ module.exports = {
                     rehypePlugins: [katex],
                     sidebarPath: require.resolve('./sidebars.js'),
                     routeBasePath: '/',
-                    editUrl:
-                        'https://github.com/boticord/docs-v3/blob/main/',
                     showLastUpdateAuthor: true,
-                    showLastUpdateTime: true,
+                    showLastUpdateTime: true
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),

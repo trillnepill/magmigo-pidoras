@@ -39,10 +39,6 @@
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Прокрутка к началу",
-    "description": "The ARIA label for the back to top button"
-  },
   "theme.blog.archive.title": {
     "message": "Архив",
     "description": "The page & hero title of the blog archive page"
@@ -62,6 +58,10 @@
   "theme.blog.paginator.olderEntries": {
     "message": "Предыдущие записи",
     "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Прокрутка к началу",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Навигация по странице поста блога",
@@ -87,6 +87,14 @@
     "message": "Посмотреть все теги",
     "description": "The label of the link targeting the tag list page"
   },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Главная страница",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Навигационная цепочка текущей страницы",
+    "description": "The ARIA label for the breadcrumbs"
+  },
   "theme.colorToggle.ariaLabel": {
     "message": "Переключение между темным и светлым режимом (сейчас используется {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
@@ -98,14 +106,6 @@
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "Светлый режим",
     "description": "The name for the light color mode"
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Главная страница",
-    "description": "The ARIA label for the home page in the breadcrumbs"
-  },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Навигационная цепочка текущей страницы",
-    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} элемент|{count} элемента|{count} элементов",
@@ -238,10 +238,6 @@
     "message": "Свернуть сайдбар",
     "description": "The title attribute for collapse button of doc sidebar"
   },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Перейти к главному меню",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
-  },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Развернуть сайдбар",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
@@ -249,6 +245,20 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Развернуть сайдбар",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Перейти к главному меню",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchPage.existingResultsTitle": {
     "message": "Search results for \"{query}\"",
@@ -265,16 +275,6 @@
   "theme.SearchPage.noResultsText": {
     "message": "No documents were found",
     "description": "The paragraph for empty search result"
-  },
-  "theme.SearchBar.noResultsText": {
-    "message": "No results"
-  },
-  "theme.SearchBar.seeAll": {
-    "message": "See all results"
-  },
-  "theme.SearchBar.label": {
-    "message": "Search",
-    "description": "The ARIA label and placeholder for search button"
   },
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
