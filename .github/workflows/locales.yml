@@ -43,11 +43,10 @@ jobs:
           
           git add .
           git commit -am "chore: pull locales"
-          
-          git push origin main
-#      - uses: ad-m/github-push-action@master
-#        name: Push changes
-#        with:
-#          github_token: ${{ secrets.BOTICORDAC_TOKEN }}
-#          branch: main
-#          repository: boticord/localization
+      - uses: ad-m/github-push-action@master
+        name: Push changes
+        with:
+          github_token: ${{ secrets.BOTICORDAC_TOKEN }}
+          branch: main
+          repository: boticord/localization
+          directory: ./locales
