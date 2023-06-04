@@ -19,7 +19,7 @@ jobs:
         name: Checkout docs
         with:
           path: docs
-          token: ${{ secrets.BOTICORDAC_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@v3
         name: Checkout locales
         with:
@@ -38,15 +38,13 @@ jobs:
           cp -r ./docs/locale/ru/* ./locales
           
           cd ./locales
-          git config --local user.email "bc@livixx.me"
-          git config --local user.name "BoticordAC"
           
           git add .
           git commit -am "chore: pull locales"
       - uses: ad-m/github-push-action@master
         name: Push changes
         with:
-          github_token: ${{ secrets.BOTICORDAC_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           repository: boticord/localization
           directory: ./locales
