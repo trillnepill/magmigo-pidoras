@@ -34,6 +34,7 @@ jobs:
           cd ..
           cp -r ./docs/locale/ru/* ./locales
           
+          cd ./locales
           git config --global user.email "bc@livixx.me"
           git config --global user.name "BoticordAC"
           git commit -a -m "chore: pull locales"
