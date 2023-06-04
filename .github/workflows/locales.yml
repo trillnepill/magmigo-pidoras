@@ -33,6 +33,9 @@ jobs:
           cp -r docs ./locale/ru/docusaurus-plugin-content-docs/current
           cd ..
           cp -r ./docs/locale/ru/* ./locales
+          
+          git config --global user.email "bc@livixx.me"
+          git config --global user.name "BoticordAC"
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Push changes
         with:
