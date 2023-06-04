@@ -43,7 +43,7 @@ jobs:
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
-          REPO: boticord/localization
+          REPO: https://github.com/boticord/localization
           BRANCH: main
           FOLDER: locales
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
