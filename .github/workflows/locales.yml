@@ -40,11 +40,11 @@ jobs:
           cd ./locales
           
           git add .
-          git commit -am "chore: pull locales"
-      - uses: ad-m/github-push-action@master
-        name: Push changes
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          repository: boticord/localization
-          directory: ./locales
+      - name: Push
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: boticord/localization
+          BRANCH: main
+          FOLDER: locales
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "chore: pull locales"
