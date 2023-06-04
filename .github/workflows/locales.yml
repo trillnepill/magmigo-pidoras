@@ -24,6 +24,7 @@ jobs:
       - name: Generate some shit for Crowdin
         run: |
           cd docs
+          npm ci
           npm run write-translations
           rm -rf ./locale/ru/docusaurus-plugin-content-docs/current
           cp -r docs ./locale/ru/docusaurus-plugin-content-docs/current
