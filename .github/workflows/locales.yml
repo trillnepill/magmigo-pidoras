@@ -42,5 +42,5 @@ jobs:
           REPO: git@github.com:boticord/localization.git
           BRANCH: main
           FOLDER: locales
-          SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_DEPLYOY_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           MESSAGE: "chore: pull locales"
