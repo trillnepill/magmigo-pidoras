@@ -150,7 +150,7 @@ module.exports = {
     ],
     i18n: {
         defaultLocale: 'ru',
-        locales: ['ru','en'],
+        locales: ['ru','en','by','ua','de','pl'],
         path: 'locale',
         localeConfigs: {
             ru: {
@@ -158,6 +158,18 @@ module.exports = {
             },
             en: {
                 label: 'English',
+            },
+            by: {
+                label: "by"
+            },
+            ua: {
+                label: "Українська"
+            },
+            de: {
+                label: "Deutsch"
+            },
+            pl: {
+                label: "Polski"
             }
         }
     },
