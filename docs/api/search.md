@@ -6,9 +6,8 @@ published: true
 
 # Поиск
 
-Для поиска ботов, серверов и комментариев мы используем сервис [Meilisearch](https://www.meilisearch.com)
-Ознакомиться со всеми методами поиска вы можете
-ознакомиться [здесь](https://www.meilisearch.com/docs/reference/api/overview)
+Для поиска ботов, серверов и комментариев мы используем сервис [Meilisearch](https://www.meilisearch.com).
+Ознакомиться со всеми методами поиска вы можете [здесь](https://www.meilisearch.com/docs/reference/api/overview)
 
 Получить ключ для поиска можно с помощью метода `GET /search-key`
 
@@ -69,9 +68,8 @@ published: true
 | 	ups	              | число	                           | Количество апов	        |
 | 	created	          | число 	                          | Дата создания	          |
 | 	rating	           | число	                           | Рейтинг бота	           |
-| 	members?	         | число	                           | Количество участников	  |
 | 	banner	           | число	                           | ID баннера сайта	       |
+| 	members?	         | число	                           | 	Количество пользователей	 |
 | 	guilds?	          | 	число	                          | Количество серверов	    |
 | 	shards?	          | 	число	                          | Количество шардов	      |
-| 	members?	         | число	                           | 	Количество участников	 |
 | 	tags	             | массив [BotTags](/api/bots#tags) | Теги бота	              |
