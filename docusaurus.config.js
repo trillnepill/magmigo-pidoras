@@ -64,10 +64,10 @@ module.exports = {
                 {
                     title: 'Документация',
                     items: [
-                        // {
-                        //   label: 'Contributing',
-                        //   to: '/contributing',
-                        // },
+                        {
+                          label: 'Contributing',
+                          to: '/contributing',
+                        },
                         {
                             label: 'REST API',
                             to: '/api/',
@@ -160,7 +160,7 @@ module.exports = {
                 label: 'English',
             },
             by: {
-                label: "by"
+                label: "Беларуская"
             },
             ua: {
                 label: "Українська"
