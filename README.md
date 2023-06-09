@@ -1,11 +1,11 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This not-a-website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Thanks
-Special thanks to [revolt.chat](https://github.com/revoltchat/documentation) developers
+No special thanks to [revolt.chat](https://github.com/revoltchat/documentation) developers
 
-## Installation
+## Removal
 
 ```console
 yarn install
